@@ -1,0 +1,1799 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BELLEVUE",
+        "cmt": "BELLEVUE",
+        "desc": "Bike Loop Bellevue",
+        "type": "Parking",
+        "time": "2001-06-02T00:18:15Z"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.107628,
+            42.43095,
+            23.4696
+          ],
+          [
+            -71.109236,
+            42.43124,
+            26.56189
+          ],
+          [
+            -71.109942,
+            42.43498,
+            45.307495
+          ],
+          [
+            -71.113223,
+            42.436757,
+            37.616943
+          ],
+          [
+            -71.114456,
+            42.439018,
+            56.388
+          ],
+          [
+            -71.114803,
+            42.438594,
+            46.028564
+          ],
+          [
+            -71.116146,
+            42.438917,
+            44.826904
+          ],
+          [
+            -71.119277,
+            42.438878,
+            44.586548
+          ],
+          [
+            -71.119689,
+            42.439227,
+            57.6072
+          ],
+          [
+            -71.120925,
+            42.439993,
+            53.9496
+          ],
+          [
+            -71.121676,
+            42.441727,
+            67.3608
+          ],
+          [
+            -71.122044,
+            42.443904,
+            50.594727
+          ],
+          [
+            -71.122845,
+            42.445359,
+            61.649902
+          ],
+          [
+            -71.121447,
+            42.447298,
+            127.7112
+          ],
+          [
+            -71.12232,
+            42.449765,
+            119.809082
+          ],
+          [
+            -71.121746,
+            42.451442,
+            74.627442
+          ],
+          [
+            -71.121211,
+            42.453256,
+            77.992066
+          ],
+          [
+            -71.119356,
+            42.456252,
+            78.713135
+          ],
+          [
+            -71.119676,
+            42.456592,
+            78.713135
+          ],
+          [
+            -71.119845,
+            42.457388,
+            73.7616
+          ],
+          [
+            -71.119135,
+            42.458148,
+            68.2752
+          ],
+          [
+            -71.117693,
+            42.459377,
+            64.008
+          ],
+          [
+            -71.119828,
+            42.464183,
+            52.997925
+          ],
+          [
+            -71.119399,
+            42.46565,
+            56.388
+          ],
+          [
+            -71.119328,
+            42.465913,
+            64.533692
+          ],
+          [
+            -71.113574,
+            42.46711,
+            53.6448
+          ],
+          [
+            -71.110067,
+            42.466459,
+            48.768
+          ],
+          [
+            -71.10941,
+            42.466557,
+            49.0728
+          ],
+          [
+            -71.107117,
+            42.463495,
+            62.484
+          ],
+          [
+            -71.10736,
+            42.465687,
+            87.7824
+          ],
+          [
+            -71.10617,
+            42.459986,
+            72.945191
+          ],
+          [
+            -71.105116,
+            42.457616,
+            72.8472
+          ],
+          [
+            -71.105206,
+            42.453845,
+            66.696655
+          ],
+          [
+            -71.105413,
+            42.45143,
+            57.564209
+          ],
+          [
+            -71.106158,
+            42.448448,
+            62.1792
+          ],
+          [
+            -71.106624,
+            42.447804,
+            62.484
+          ],
+          [
+            -71.108882,
+            42.444773,
+            62.7888
+          ],
+          [
+            -71.106301,
+            42.443592,
+            55.4736
+          ],
+          [
+            -71.111441,
+            42.442981,
+            64.008
+          ],
+          [
+            -71.110975,
+            42.442196,
+            64.008
+          ],
+          [
+            -71.11322,
+            42.441754,
+            56.388
+          ],
+          [
+            -71.114456,
+            42.439018,
+            56.388
+          ],
+          [
+            -71.113223,
+            42.436757,
+            37.616943
+          ],
+          [
+            -71.109942,
+            42.43498,
+            45.307495
+          ],
+          [
+            -71.109236,
+            42.43124,
+            26.56189
+          ],
+          [
+            -71.107628,
+            42.43095,
+            23.4696
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5066",
+        "desc": "5066",
+        "type": "Crossing",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119277,
+          42.438878,
+          44.586548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5067",
+        "desc": "5067",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:55Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119689,
+          42.439227,
+          57.6072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5096",
+        "desc": "5096",
+        "type": "Dot",
+        "time": "2001-11-16T23:03:38Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.116146,
+          42.438917,
+          44.826904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5142",
+        "desc": "5142",
+        "type": "Dot",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.122044,
+          42.443904,
+          50.594727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5156",
+        "desc": "5156",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:58Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121447,
+          42.447298,
+          127.7112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5224",
+        "desc": "5224",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:59Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.125094,
+          42.454873,
+          96.9264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5229",
+        "desc": "5229",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:59Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.124988,
+          42.459079,
+          82.6008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5237",
+        "desc": "5237",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:59Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.124474,
+          42.456979,
+          82.9056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5254",
+        "desc": "5254",
+        "type": "Dot",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12099,
+          42.454401,
+          66.696655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5258",
+        "desc": "5258",
+        "type": "Dot",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121746,
+          42.451442,
+          74.627442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5264",
+        "desc": "5264",
+        "type": "Dot",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12066,
+          42.454404,
+          65.254761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "526708",
+        "desc": "526708",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:00Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121045,
+          42.457761,
+          77.4192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "526750",
+        "desc": "526750",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:00Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.120313,
+          42.457089,
+          74.676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "527614",
+        "desc": "527614",
+        "type": "Dot",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119676,
+          42.456592,
+          78.713135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "527631",
+        "desc": "527631",
+        "type": "Dot",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119356,
+          42.456252,
+          78.713135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5278",
+        "desc": "5278",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:00Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119135,
+          42.458148,
+          68.2752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5289",
+        "desc": "5289",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:01Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.117693,
+          42.459377,
+          64.008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5374FIRE",
+        "desc": "5374FIRE",
+        "type": "Dot",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119828,
+          42.464183,
+          52.997925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5376",
+        "desc": "5376",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:02Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119399,
+          42.46565,
+          56.388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6006",
+        "desc": "600698",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:55Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.114456,
+          42.439018,
+          56.388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6006BLUE",
+        "desc": "6006BLUE",
+        "type": "Dot",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.114803,
+          42.438594,
+          46.028564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6014MEADOW",
+        "desc": "6014MEADOW",
+        "type": "Dot",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.113223,
+          42.436757,
+          37.616943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6029",
+        "desc": "6029",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:55Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.11322,
+          42.441754,
+          56.388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6053",
+        "desc": "6053",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:05Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109075,
+          42.436243,
+          50.292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6066",
+        "desc": "6066",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:57Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1075,
+          42.43925,
+          25.6032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6067",
+        "desc": "6067",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:57Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107582,
+          42.439764,
+          34.4424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6071",
+        "desc": "6071",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:57Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105874,
+          42.434766,
+          30.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6073",
+        "desc": "6073",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:56Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106599,
+          42.433304,
+          15.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6084",
+        "desc": "6084",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:57Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.104772,
+          42.437338,
+          37.7952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6130",
+        "desc": "6130",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:55Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.110975,
+          42.442196,
+          64.008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6131",
+        "desc": "6131",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:58Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.111441,
+          42.442981,
+          64.008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6153",
+        "desc": "6153",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:05Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.108882,
+          42.444773,
+          62.7888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6171",
+        "desc": "6171",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:05Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106301,
+          42.443592,
+          55.4736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6176",
+        "desc": "6176",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:04Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106624,
+          42.447804,
+          62.484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6177",
+        "desc": "6177",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:04Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106158,
+          42.448448,
+          62.1792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6272",
+        "desc": "6272",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:55Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106783,
+          42.453415,
+          69.7992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6272",
+        "desc": "6272",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:56Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107253,
+          42.453434,
+          73.152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6278",
+        "desc": "6278",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:04Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106771,
+          42.458298,
+          70.104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6280",
+        "desc": "6280",
+        "type": "Dot",
+        "time": "2001-11-16T23:03:38Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105413,
+          42.45143,
+          57.564209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6283",
+        "desc": "6283",
+        "type": "Dot",
+        "time": "2001-11-16T23:03:38Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105206,
+          42.453845,
+          66.696655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6289",
+        "desc": "6289",
+        "type": "Dot",
+        "time": "2001-11-16T23:03:38Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10617,
+          42.459986,
+          72.945191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6297",
+        "desc": "6297",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:04Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105116,
+          42.457616,
+          72.8472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6328",
+        "desc": "6328",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:02Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.113574,
+          42.46711,
+          53.6448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6354",
+        "desc": "6354",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:03Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109863,
+          42.464202,
+          43.8912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "635722",
+        "desc": "635722",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:02Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.110067,
+          42.466459,
+          48.768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "635783",
+        "desc": "635783",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:02Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10941,
+          42.466557,
+          49.0728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6373",
+        "desc": "6373",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:03Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107117,
+          42.463495,
+          62.484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6634",
+        "desc": "6634",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:56Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.110241,
+          42.401051,
+          3.9624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6979",
+        "desc": "6979",
+        "type": "Intersection",
+        "time": "2001-06-02T03:26:56Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106532,
+          42.432621,
+          13.4112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6997",
+        "desc": "6997",
+        "type": "Dot",
+        "time": "2001-11-16T23:03:38Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107883,
+          42.431033,
+          34.012085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BEAR HILL",
+        "cmt": "BEAR HILL TOWER",
+        "desc": "Bear Hill Tower",
+        "type": "Tower",
+        "time": "2001-06-02T03:27:03Z",
+        "sym": "Tall Tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10736,
+          42.465687,
+          87.7824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BELLEVUE",
+        "cmt": "BELLEVUE",
+        "desc": "Bellevue Parking Lot",
+        "type": "Parking",
+        "time": "2001-06-02T00:18:15Z",
+        "sym": "Parking Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107628,
+          42.43095,
+          23.4696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6016",
+        "desc": "Bike Loop Connector",
+        "type": "Intersection",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.114079,
+          42.438666,
+          43.384766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5236BRIDGE",
+        "desc": "Bridge",
+        "type": "Bridge",
+        "time": "2001-06-02T03:26:59Z",
+        "sym": "Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.124651,
+          42.456469,
+          89.916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5376BRIDGE",
+        "desc": "Bridge",
+        "type": "Bridge",
+        "time": "2001-06-02T03:27:01Z",
+        "sym": "Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119815,
+          42.465759,
+          55.4736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6181CROSS",
+        "desc": "Crossing",
+        "type": "Crossing",
+        "time": "2001-06-02T03:27:05Z",
+        "sym": "Crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105878,
+          42.442993,
+          52.7304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6042CROSS",
+        "desc": "Crossing",
+        "type": "Crossing",
+        "time": "2001-06-02T03:27:05Z",
+        "sym": "Crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109664,
+          42.435472,
+          45.1104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DARKHOLLPO",
+        "desc": "Dark Hollow Pond",
+        "sym": "Fishing Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.103646,
+          42.458516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6121DEAD",
+        "desc": "Dead End",
+        "type": "Dead End",
+        "time": "2001-06-02T03:26:57Z",
+        "sym": "Danger Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.112675,
+          42.443109,
+          56.0832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5179DEAD",
+        "desc": "Dead End",
+        "type": "Dead End",
+        "time": "2001-06-02T03:26:59Z",
+        "sym": "Danger Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119298,
+          42.449866,
+          117.0432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5299DEAD",
+        "desc": "Dead End",
+        "type": "Dead End",
+        "time": "2001-06-02T03:27:01Z",
+        "sym": "Danger Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.116524,
+          42.459629,
+          69.4944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5376DEAD",
+        "desc": "Dead End",
+        "type": "Dead End",
+        "time": "2001-06-02T03:27:02Z",
+        "sym": "Danger Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119148,
+          42.465485,
+          56.9976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6353DEAD",
+        "desc": "Dead End",
+        "type": "Dead End",
+        "time": "2001-06-02T03:27:03Z",
+        "sym": "Danger Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109986,
+          42.462776,
+          46.9392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6155DEAD",
+        "desc": "Dead End",
+        "type": "Dead End",
+        "time": "2001-06-02T03:27:04Z",
+        "sym": "Danger Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.108784,
+          42.446793,
+          61.2648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE14",
+        "desc": "Gate 14",
+        "type": "Road",
+        "time": "2001-06-02T03:26:59Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.126602,
+          42.451204,
+          110.9472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE16",
+        "desc": "Gate 16",
+        "type": "Road",
+        "time": "2001-06-02T03:27:00Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.122078,
+          42.458499,
+          77.724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE17",
+        "desc": "Gate 17",
+        "type": "Road",
+        "time": "2001-06-02T03:27:01Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119238,
+          42.459376,
+          65.8368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE19",
+        "desc": "Gate 19",
+        "type": "Road",
+        "time": "2001-06-02T03:27:02Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.11924,
+          42.466353,
+          57.3024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE21",
+        "desc": "Gate 21",
+        "type": "Road",
+        "time": "2001-06-02T03:27:03Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107697,
+          42.468655,
+          49.3776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE24",
+        "desc": "Gate 24",
+        "type": "Road",
+        "time": "2001-06-02T03:27:03Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.102973,
+          42.456718,
+          81.0768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE5",
+        "desc": "Gate 5",
+        "type": "Truck Stop",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10769,
+          42.430847,
+          21.515015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GATE6",
+        "desc": "Gate 6",
+        "type": "Trail Head",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109236,
+          42.43124,
+          26.56189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6077LOGS",
+        "desc": "Log Crossing",
+        "type": "Obstacle",
+        "time": "2001-06-02T00:18:16Z",
+        "sym": "Amusement Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106556,
+          42.439502,
+          32.004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5148NANEPA",
+        "desc": "Nanepashemet Road Crossing",
+        "type": "Trail Head",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12232,
+          42.449765,
+          119.809082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5267OBSTAC",
+        "desc": "Obstacle",
+        "type": "Obstacle",
+        "time": "2001-06-02T03:27:00Z",
+        "sym": "Amusement Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119845,
+          42.457388,
+          73.7616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PANTHRCAVE",
+        "desc": "Panther Cave",
+        "type": "Tunnel",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Tunnel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109942,
+          42.43498,
+          45.307495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5252PURPLE",
+        "desc": "Purple Rock Hill",
+        "type": "Summit",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Summit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121211,
+          42.453256,
+          77.992066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5287WATER",
+        "desc": "Reservoir",
+        "type": "Reservoir",
+        "time": "2001-06-02T03:27:01Z",
+        "sym": "Swimming Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.117481,
+          42.457734,
+          67.9704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5239ROAD",
+        "desc": "Road",
+        "type": "Road",
+        "time": "2001-06-02T03:27:00Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.124574,
+          42.459278,
+          81.0768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5278ROAD",
+        "desc": "Road",
+        "type": "Road",
+        "time": "2001-06-02T03:27:01Z",
+        "sym": "Truck Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.118991,
+          42.458782,
+          67.3608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5058ROAD",
+        "cmt": "ROAD CROSSING",
+        "desc": "Road Crossing",
+        "type": "Road Crossing",
+        "time": "2001-06-02T00:18:14Z",
+        "sym": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.120925,
+          42.439993,
+          53.9496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SHEEPFOLD",
+        "desc": "Sheepfold Parking Lot",
+        "type": "Parking",
+        "time": "2001-06-02T00:18:13Z",
+        "sym": "Parking Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106782,
+          42.453415,
+          69.7992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SOAPBOX",
+        "desc": "Soap Box Derby Track",
+        "type": "Intersection",
+        "time": "2001-06-02T03:27:04Z",
+        "sym": "Cemetery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107483,
+          42.455956,
+          64.008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5376STREAM",
+        "desc": "Stream Crossing",
+        "type": "Bridge",
+        "time": "2001-11-07T23:53:41Z",
+        "sym": "Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119328,
+          42.465913,
+          64.533692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5144SUMMIT",
+        "desc": "Summit",
+        "type": "Summit",
+        "time": "2001-11-28T21:05:28Z",
+        "sym": "Summit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.122845,
+          42.445359,
+          61.649902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5150TANK",
+        "cmt": "WATER TANK",
+        "desc": "Water Tank",
+        "type": "Water Tank",
+        "time": "2001-06-02T00:18:16Z",
+        "sym": "Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121676,
+          42.441727,
+          67.3608
+        ]
+      }
+    }
+  ]
+}
