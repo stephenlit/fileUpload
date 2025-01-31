@@ -1,14 +1,11 @@
-import FileUploader from "./components/FileUploader"
-import Gpx from "./components/GpxReader"
+import Gpx from "./components/GpxReader";
 
 function App() {
-
-  return (
-    <div>
-      <FileUploader />
-      <Gpx />
-    </div>
-  )
+    return (
+        <div>
+            <Gpx />
+        </div>
+    );
 }
 
-export default App
+export default App;

@@ -1,69 +1,95 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { gpx } from "@tmcw/togeojson";
+import {
+    FeatureCollection,
+    GeoJsonProperties,
+    LineString,
+    Feature,
+} from "geojson";
 
 const GPXViewer = () => {
-    const [geoJsonData, setGeoJsonData] = useState(null);
+    const [geoJsonData, setGeoJsonData] = useState<number[][] | null>(null);
+    //const [fileName, setFileName] = useState<string | null>(null);
 
-    useEffect(() => {
-        fetch("/aug29.gpx")
-            .then((response) => response.text())
-            .then((gpxText) => {
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(gpxText, "application/xml");
-    
-                const geoJson = gpx(xmlDoc);
-               // console.log("Full GeoJSON:", geoJson); // Debugging output
-    
-                // Extract and flatten all LineString coordinates
-                const routeCoordinates = geoJson.features
-                    .filter(f => f.geometry.type === "LineString")
-                    .flatMap(f => f.geometry.coordinates);
-    
-                if (routeCoordinates.length) {
-                    setGeoJsonData(routeCoordinates);
-                    sendDataToBackend(routeCoordinates);
-                }
-            })
-            .catch((error) => console.error("Error loading GPX file:", error));
-    }, []);
-    
+    const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const file = event.target.files?.[0];
+        if (!file) return;
+        //setFileName(file.name);
 
-    const sendDataToBackend = async (routeCoordinates) => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            if (!e.target?.result) return;
+            const gpxText = e.target.result as string;
+
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(gpxText, "application/xml");
+
+            const geoJson: FeatureCollection = gpx(xmlDoc);
+            console.log("Full GeoJSON:", geoJson); // Debugging output
+
+            const routeCoordinates: number[][] = geoJson.features
+                .filter(
+                    (f): f is Feature<LineString, GeoJsonProperties> =>
+                        f.geometry.type === "LineString"
+                )
+                .flatMap((f) => f.geometry.coordinates);
+
+            if (routeCoordinates.length) {
+                setGeoJsonData(routeCoordinates);
+                sendDataToBackend(file.name, routeCoordinates);
+            }
+        };
+
+        reader.readAsText(file);
+    };
+
+    const sendDataToBackend = async (
+        fileName: string,
+        routeCoordinates: number[][]
+    ) => {
         try {
-            const response = await fetch("http://localhost:5000/api/upload-gpx", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({ route: routeCoordinates }),
-            });
+            const response = await fetch(
+                "http://localhost:5000/api/upload-gpx",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ fileName, route: routeCoordinates }),
+                }
+            );
 
             if (!response.ok) {
                 throw new Error("Network response was not ok");
             }
 
             const data = await response.json();
-            //console.log(data); // Handle the response from the backend
+            console.log("Server response:", data);
         } catch (error) {
             console.error("Error sending data to backend:", error);
         }
     };
 
-
-
-
     return (
         <div>
             <h1>GPX to GeoJSON Viewer</h1>
-            {geoJsonData ?
-                (
-                    geoJsonData.map((coord) => <p>{coord[0]}, {coord[1]}, {coord[2]}</p>)
-                ) : (
-                    <p>Loading GPX file...</p>
-                )}
-        </div>
-    )
-};
+            <input
+                type='file'
+                accept='.gpx'
+                onChange={handleFileUpload}
+            />
 
+            {geoJsonData ? (
+                geoJsonData.map((coord, index) => (
+                    <p key={index}>
+                        {coord[0]}, {coord[1]}, {coord[2]}
+                    </p>
+                ))
+            ) : (
+                <p>Upload a GPX file to view coordinates...</p>
+            )}
+        </div>
+    );
+};
 
 export default GPXViewer;
